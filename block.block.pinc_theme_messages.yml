@@ -1,0 +1,22 @@
+uuid: 29365f68-b6e2-47ce-967d-2284953eaac2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pinc_theme
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: pinc_theme_messages
+theme: pinc_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

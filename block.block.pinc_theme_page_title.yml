@@ -1,0 +1,20 @@
+uuid: 3de9cdd8-2a2a-4c3d-b550-5990c156e07a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - pinc_theme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: pinc_theme_page_title
+theme: pinc_theme
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

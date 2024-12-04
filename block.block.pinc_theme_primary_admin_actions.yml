@@ -1,0 +1,20 @@
+uuid: 901e46b9-6e3d-4c41-85bc-d8edec432087
+langcode: en
+status: true
+dependencies:
+  theme:
+    - pinc_theme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: pinc_theme_primary_admin_actions
+theme: pinc_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
