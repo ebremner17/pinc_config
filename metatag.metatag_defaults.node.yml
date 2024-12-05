@@ -1,0 +1,21 @@
+uuid: c3ff9e45-735b-41dd-9b18-17059856c65e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: Content
+tags:
+  canonical_url: '[node:url]'
+  description: "Player's Inc, the premier poker club in Toronto & GTA, offers the best poker rooms and tournaments. Join us for daily NLH and Omaha cash games. Play Live Poker games in GTA Canada."
+  keywords: 'live poker, toronto poker rooms, toronto poker game, poker club toronto, poker tournaments toronto'
+  robots: 'index, follow'
+  schema_place_address: 'a:6:{s:5:"@type";s:13:"PostalAddress";s:13:"streetAddress";s:11:"63 Mack Ave";s:15:"addressLocality";s:11:"Scarborough";s:13:"addressRegion";s:7:"Ontario";s:10:"postalCode";s:7:"M1L 1M5";s:14:"addressCountry";s:6:"Canada";}'
+  schema_place_description: "Player's Inc, the premier poker club in Toronto & GTA, offers the best poker rooms and tournaments. Join us for daily NLH and Omaha cash games. Play Live Poker games in GTA Canada."
+  schema_place_geo: 'a:3:{s:5:"@type";s:14:"GeoCoordinates";s:8:"latitude";s:12:"43°42''00.8N";s:9:"longitude";s:12:"79°16''11.8W";}'
+  schema_place_name: 'Players Inc Poker Club Toronto'
+  schema_place_telephone: 647-549-2036
+  schema_place_type: LocalBusiness
+  schema_place_url: 'https://playersinc.ca/'
+  title: '[node:title] | [site:name]'

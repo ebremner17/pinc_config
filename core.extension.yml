@@ -30,6 +30,7 @@ module:
   link: 0
   menu_link_content: 0
   menu_ui: 0
+  metatag: 0
   mysql: 0
   node: 0
   options: 0
@@ -37,11 +38,14 @@ module:
   path: 0
   path_alias: 0
   responsive_menus: 0
+  schema_metatag: 0
+  schema_place: 0
   search: 0
   shortcut: 0
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   user: 0
   views_ui: 0
