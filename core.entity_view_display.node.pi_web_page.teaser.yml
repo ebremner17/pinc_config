@@ -1,0 +1,22 @@
+uuid: e2debb86-2f35-42b7-82ba-6fb8a7f74ac4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pi_web_page.layout_builder__layout
+    - node.type.pi_web_page
+  module:
+    - user
+id: node.pi_web_page.teaser
+targetEntityType: node
+bundle: pi_web_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  layout_builder__layout: true

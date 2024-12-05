@@ -1,0 +1,34 @@
+uuid: dd753cba-05a4-4b3c-b6f7-79b71e72fb5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pi_web_page.layout_builder__layout
+    - node.type.pi_web_page
+  module:
+    - layout_builder
+    - layout_discovery
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components: {  }
+        third_party_settings: {  }
+id: node.pi_web_page.default
+targetEntityType: node
+bundle: pi_web_page
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  layout_builder__layout: true

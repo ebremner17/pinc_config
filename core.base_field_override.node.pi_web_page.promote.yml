@@ -1,0 +1,22 @@
+uuid: 209397b0-435e-465c-94b5-1af67c43f255
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pi_web_page
+id: node.pi_web_page.promote
+field_name: promote
+entity_type: node
+bundle: pi_web_page
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
