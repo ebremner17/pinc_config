@@ -1,0 +1,21 @@
+uuid: c09e53dd-b9ff-43d5-b875-db643efc64d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_game_type
+    - paragraphs.paragraphs_type.pi_pt_game
+  module:
+    - options
+id: paragraph.pi_pt_game.field_game_type
+field_name: field_game_type
+entity_type: paragraph
+bundle: pi_pt_game
+label: 'Game type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

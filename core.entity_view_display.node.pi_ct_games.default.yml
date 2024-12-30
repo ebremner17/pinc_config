@@ -1,0 +1,41 @@
+uuid: 2d21566c-79c6-46f0-87dd-abd068ea0135
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pi_ct_games.field_game_date
+    - field.field.node.pi_ct_games.field_games
+    - node.type.pi_ct_games
+  module:
+    - datetime
+    - entity_reference_revisions
+    - user
+id: node.pi_ct_games.default
+targetEntityType: node
+bundle: pi_ct_games
+mode: default
+content:
+  field_game_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: html_date
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_games:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

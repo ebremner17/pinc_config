@@ -1,0 +1,39 @@
+uuid: f9d7258e-a692-4cb5-9502-8d20032f6099
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pi_pt_game.field_game_players
+    - field.field.paragraph.pi_pt_game.field_game_type
+    - field.field.paragraph.pi_pt_game.field_pi_game_time
+    - paragraphs.paragraphs_type.pi_pt_game
+  module:
+    - datetime_range
+id: paragraph.pi_pt_game.default
+targetEntityType: paragraph
+bundle: pi_pt_game
+mode: default
+content:
+  field_game_players:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_game_type:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_pi_game_time:
+    type: daterange_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
