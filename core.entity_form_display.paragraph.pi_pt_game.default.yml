@@ -8,7 +8,42 @@ dependencies:
     - field.field.paragraph.pi_pt_game.field_pi_game_time
     - paragraphs.paragraphs_type.pi_pt_game
   module:
-    - datetime_range
+    - field_group
+    - field_time
+third_party_settings:
+  field_group:
+    group_game_info:
+      children:
+        - field_game_type
+        - field_pi_game_time
+      label: 'Game info'
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_players:
+      children:
+        - field_game_players
+      label: Players
+      region: content
+      parent_name: ''
+      weight: 1
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        open: false
+        description: ''
+        required_fields: true
 id: paragraph.pi_pt_game.default
 targetEntityType: paragraph
 bundle: pi_pt_game
@@ -16,7 +51,7 @@ mode: default
 content:
   field_game_players:
     type: string_textfield
-    weight: 2
+    weight: 1
     region: content
     settings:
       size: 60
@@ -24,15 +59,17 @@ content:
     third_party_settings: {  }
   field_game_type:
     type: options_select
-    weight: 0
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
   field_pi_game_time:
-    type: daterange_default
-    weight: 1
+    type: time_widget
+    weight: 2
     region: content
-    settings: {  }
+    settings:
+      enabled: false
+      step: 5
     third_party_settings: {  }
 hidden:
   created: true

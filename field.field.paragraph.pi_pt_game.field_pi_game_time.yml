@@ -1,4 +1,4 @@
-uuid: db1e43ed-c268-470e-ac9c-2abd016efb6e
+uuid: 938a4fd6-dc1f-433e-bd30-def4b71c4dc3
 langcode: en
 status: true
 dependencies:
@@ -6,16 +6,18 @@ dependencies:
     - field.storage.paragraph.field_pi_game_time
     - paragraphs.paragraphs_type.pi_pt_game
   module:
-    - datetime_range
+    - field_time
 id: paragraph.pi_pt_game.field_pi_game_time
 field_name: field_pi_game_time
 entity_type: paragraph
 bundle: pi_pt_game
-label: 'Game time'
+label: 'Start time'
 description: ''
-required: false
+required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: '19:00:00'
 default_value_callback: ''
 settings: {  }
-field_type: daterange
+field_type: time

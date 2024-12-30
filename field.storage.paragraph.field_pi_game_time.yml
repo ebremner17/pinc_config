@@ -1,17 +1,16 @@
-uuid: 45b06ef8-af14-45f5-b8fc-b6dab7aceccc
+uuid: 5d2cacf0-cdbc-45d8-aa63-53aaca625240
 langcode: en
 status: true
 dependencies:
   module:
-    - datetime_range
+    - field_time
     - paragraphs
 id: paragraph.field_pi_game_time
 field_name: field_pi_game_time
 entity_type: paragraph
-type: daterange
-settings:
-  datetime_type: datetime
-module: datetime_range
+type: time
+settings: {  }
+module: field_time
 locked: false
 cardinality: 1
 translatable: true

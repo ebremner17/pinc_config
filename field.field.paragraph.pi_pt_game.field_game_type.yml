@@ -13,7 +13,7 @@ entity_type: paragraph
 bundle: pi_pt_game
 label: 'Game type'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
