@@ -1,0 +1,9 @@
+uuid: 3b8e131e-d091-4f4e-a7cc-cdf72c2094c8
+langcode: en
+status: true
+dependencies: {  }
+id: floor
+label: Floor
+weight: 4
+is_admin: null
+permissions: {  }

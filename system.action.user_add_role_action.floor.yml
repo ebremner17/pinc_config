@@ -1,0 +1,14 @@
+uuid: 23077149-3f0e-4a35-a1cf-691919fa4877
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.floor
+  module:
+    - user
+id: user_add_role_action.floor
+label: 'Add the Floor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: floor
